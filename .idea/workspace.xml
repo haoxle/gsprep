@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81102bd2-cfc4-4e96-9d14-1ceee76832f7" name="Changes" comment="RobotCoordinates">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FindMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FindMedianTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RobotString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RobotString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,15 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -49,9 +53,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RobotStringTest">
-    <configuration name="RobotString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RobotString" />
+  <component name="RunManager" selected="JUnit.FindMedianTest">
+    <configuration name="FindMedianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -59,6 +62,41 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMedianTest.findMedian1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gsprep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
+      <option name="METHOD_NAME" value="findMedian1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMedianTest.findMedian2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gsprep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
+      <option name="METHOD_NAME" value="findMedian2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,45 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotStringTest.getCoordinatesofUUU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gsprep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RobotStringTest" />
-      <option name="METHOD_NAME" value="getCoordinatesofUUU" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobotStringTest.getCoordinatesofWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gsprep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RobotStringTest" />
-      <option name="METHOD_NAME" value="getCoordinatesofWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMedianTest" />
+        <item itemvalue="JUnit.FindMedianTest.findMedian2" />
+        <item itemvalue="JUnit.FindMedianTest.findMedian1" />
         <item itemvalue="JUnit.RobotStringTest" />
         <item itemvalue="JUnit.RobotStringTest.getCoordinatesofURDL" />
-        <item itemvalue="JUnit.RobotStringTest.getCoordinatesofWords" />
-        <item itemvalue="JUnit.RobotStringTest.getCoordinatesofUUU" />
-        <item itemvalue="Application.RobotString" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676810252669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RobotCoordinates">
+      <created>1676811681736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676811681736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
