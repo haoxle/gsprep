@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81102bd2-cfc4-4e96-9d14-1ceee76832f7" name="Changes" comment="RobotCoordinates">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FindMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FindMedianTest.java" afterDir="false" />
+    <list default="true" id="81102bd2-cfc4-4e96-9d14-1ceee76832f7" name="Changes" comment="findMedian">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Consec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Dupe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ConsecTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DupeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FindMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FindMedian.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -49,12 +56,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindMedianTest">
-    <configuration name="FindMedianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConsecTest">
+    <configuration name="ConsecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -63,13 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConsecTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianTest.findMedian1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsecTest.consec1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
-      <option name="METHOD_NAME" value="findMedian1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConsecTest" />
+      <option name="METHOD_NAME" value="consec1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMedianTest.findMedian2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsecTest.consec2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FindMedianTest" />
-      <option name="METHOD_NAME" value="findMedian2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConsecTest" />
+      <option name="METHOD_NAME" value="consec2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsecTest.consec3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RobotStringTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConsecTest" />
+      <option name="METHOD_NAME" value="consec3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotStringTest.getCoordinatesofURDL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DupeTest.findDupes3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gsprep" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RobotStringTest" />
-      <option name="METHOD_NAME" value="getCoordinatesofURDL" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DupeTest" />
+      <option name="METHOD_NAME" value="findDupes3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindMedianTest" />
-        <item itemvalue="JUnit.FindMedianTest.findMedian2" />
-        <item itemvalue="JUnit.FindMedianTest.findMedian1" />
-        <item itemvalue="JUnit.RobotStringTest" />
-        <item itemvalue="JUnit.RobotStringTest.getCoordinatesofURDL" />
+        <item itemvalue="JUnit.ConsecTest" />
+        <item itemvalue="JUnit.ConsecTest.consec3" />
+        <item itemvalue="JUnit.ConsecTest.consec2" />
+        <item itemvalue="JUnit.ConsecTest.consec1" />
+        <item itemvalue="JUnit.DupeTest.findDupes3" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676811681736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="findMedian">
+      <created>1676828505896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828505896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up" />
     <MESSAGE value="RobotCoordinates" />
-    <option name="LAST_COMMIT_MESSAGE" value="RobotCoordinates" />
+    <MESSAGE value="findMedian" />
+    <option name="LAST_COMMIT_MESSAGE" value="findMedian" />
   </component>
 </project>

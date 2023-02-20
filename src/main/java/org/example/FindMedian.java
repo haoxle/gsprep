@@ -8,6 +8,8 @@ public class FindMedian {
         System.arraycopy(arr, 0, arrFinal, 0, arr.length);
         System.arraycopy(arr2, 0, arrFinal, arr.length, arr2.length);
         Arrays.sort(arrFinal);
+
+        // write the normal method for above.
         int mid = arrFinal.length / 2;
         if (arrFinal.length % 2 == 1) {
             return arrFinal[mid];
